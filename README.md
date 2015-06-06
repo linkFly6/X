@@ -12,7 +12,7 @@ __[查看和下载X.js][X.js]__
 __[linkFly的博客][blog]__
 
 
-[X.js]:https://github.com/linkFly6/X/src/X.js
+[X.js]:https://github.com/linkFly6/X/blob/master/src/X.js
 [blog]:http://www.cnblogs.com/silin6/
 
 

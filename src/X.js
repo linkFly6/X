@@ -2,7 +2,7 @@
 * Copyright 2015 linkFLy - http://www.cnblogs.com/silin6/
 * Released under the MIT license
 * http://opensource.org/licenses/mit-license.php
-* Help document£ºhttps://github.com/linkFly6/linkfly.so/tree/master/LinkFLy/Code/X
+* Help document£ºhttps://github.com/linkFly6/X
 * Date: 2014-8-24 20:17:18
 */
 (function (window, undefined) {

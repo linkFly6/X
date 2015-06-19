@@ -353,5 +353,5 @@
         return doc && doc.createElement && doc.createElement('P').nodeName !== doc.createElement('p').nodeName;
     };
     X.find = find;
-    window.so = { X: X };
+    window.X = X;
 })(window);

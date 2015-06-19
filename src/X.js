@@ -148,7 +148,7 @@
         if (!isNode(context)) return nodeList;
         if (xPathEvaluator)//w3c
             try {
-                result = xPathEvaluator.evaluate(xPath, context, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
+                var result = xPathEvaluator.evaluate(xPath, context, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null);
                 while (node = result.iterateNext())
                     nodeList.push(node);
             } catch (e) { }

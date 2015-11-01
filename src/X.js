@@ -355,7 +355,7 @@
     X.find = find;
     //¼æÈÝAMDºÍä¯ÀÀÆ÷Ë«»·¾³
     if (typeof define === "function" && define.amd) {
-        define(function () {
+        define('x', [], function () {
             return X;
         })
     }

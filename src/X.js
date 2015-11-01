@@ -353,12 +353,12 @@
         return doc && doc.createElement && doc.createElement('P').nodeName !== doc.createElement('p').nodeName;
     };
     X.find = find;
+    //¼æÈÝAMDºÍä¯ÀÀÆ÷Ë«»·¾³
     if (typeof define === "function" && define.amd) {
         define(function () {
             return X;
         })
-    } else {
-        window.so = window.so || {};
-        window.so.X = X;
     }
+    window.so = window.so || {};
+    window.so.X = X;
 })(window);
